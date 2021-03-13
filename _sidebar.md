@@ -3,7 +3,6 @@
     - [@SuppressWarning@注解的作用](编程/Java/%5C%40SuppressWarning@注解的作用.md)
     - [AssertionError](编程/Java/AssertionError.md)
     - [CountDownLatch](编程/Java/CountDownLatch.md)
-    - [dmesg作用](编程/Java/dmesg作用.md)
     - [Dubbo内置了4种负载均衡](编程/Java/Dubbo内置了4种负载均衡.md)
     - [Elastic Search](编程/Java/Elastic%20Search.md)
     - [GC优化](编程/Java/GC优化.md)
@@ -46,6 +45,7 @@
     - [ZK使用](编程/Java/ZK使用.md)
     - [数组和链表](编程/Java/数组和链表.md)
   - Linux
+    - [dmesg作用](编程/Linux/dmesg作用.md)
     - [grep](编程/Linux/grep.md)
     - [less](编程/Linux/less.md)
   - Redis

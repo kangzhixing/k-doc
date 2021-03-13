@@ -1,4 +1,4 @@
-![logo](https://docsify.js.org/_media/icon.svg)
+![logo](fav.jpg)
 
 # k-doc
 
@@ -10,3 +10,5 @@
 * whatever
 
 [Get Started](README.md)
+
+![color](#ffffff)
