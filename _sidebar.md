@@ -1,6 +1,5 @@
 - 编程
   - Java
-    - [@SuppressWarning@注解的作用](编程/Java/%5C%40SuppressWarning@注解的作用.md)
     - [AssertionError](编程/Java/AssertionError.md)
     - [CountDownLatch](编程/Java/CountDownLatch.md)
     - [Dubbo内置了4种负载均衡](编程/Java/Dubbo内置了4种负载均衡.md)
@@ -27,7 +26,6 @@
     - [sharding-jdbc使用](编程/Java/sharding-jdbc使用.md)
     - [SPI机制](编程/Java/SPI机制.md)
     - Spring
-      - [@Autowired与@Resource的区别](编程/Java/Spring/%5C%40Autowired与@Resource的区别.md)
       - [Aware接口](编程/Java/Spring/Aware接口.md)
       - [bean的作用域](编程/Java/Spring/bean的作用域.md)
       - [Filter Interceptor Aop区别](编程/Java/Spring/Filter%20Interceptor%20Aop区别.md)
@@ -37,6 +35,7 @@
       - [Spring配置文件beans中的xmlns](编程/Java/Spring/Spring配置文件beans中的xmlns.md)
       - [全局处理](编程/Java/Spring/全局处理.md)
       - [动态代理](编程/Java/Spring/动态代理.md)
+      - [注解@Autowired与@Resource的区别](编程/Java/Spring/注解@Autowired与@Resource的区别.md)
       - [注解简介](编程/Java/Spring/注解简介.md)
     - [Spring Boot热部署方式](编程/Java/Spring%20Boot热部署方式.md)
     - [synchronized](编程/Java/synchronized.md)
@@ -44,6 +43,7 @@
     - [volatile](编程/Java/volatile.md)
     - [ZK使用](编程/Java/ZK使用.md)
     - [数组和链表](编程/Java/数组和链表.md)
+    - [注解@SuppressWarning@的作用](编程/Java/注解@SuppressWarning@的作用.md)
   - Linux
     - [dmesg作用](编程/Linux/dmesg作用.md)
     - [grep](编程/Linux/grep.md)
