@@ -1,0 +1,5 @@
+## SpringBootServletInitializer
+
+springboot可以使用内置tomcat启动，也可以使用外部tomcat启动。
+
+当需要依赖外部tomcat启动时，就不能依赖于Application的main函数了，而是要以类似于web.xml文件配置的方式来启动spring应用上下文，因此需要在启动类继承SpringBootServletInitializer并实现configure方法，这个类的作用与在web.xml中配置负责初始化spring应用上下文的监听器作用类似。

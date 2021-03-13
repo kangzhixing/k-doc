@@ -1,0 +1,1 @@
+ArrayBlockingQueue是一个阻塞队列，内部由ReentrantLock来实现线程安全，由Condition的await和signal来实现等待唤醒的功能。它的数据结构是数组，准确的说是一个循环数组（可以类比一个圆环），所有的下标在到达最大长度时自动从0继续开始。

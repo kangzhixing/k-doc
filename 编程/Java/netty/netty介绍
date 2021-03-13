@@ -1,0 +1,37 @@
+## 定义
+
+Netty是一款基于NIO（Nonblocking I/O，非阻塞IO）开发的网络通信框架。
+
+## NIO
+
+传统BIO模型如下：
+
+![img](https://upload-images.jianshu.io/upload_images/1089449-546a563c9822ce16.png?imageMogr2/auto-orient/strip|imageView2/2/w/548/format/webp)
+
+一个请求socket对应一个thread，由于thread数量有限，所以该模式不支持高并发，且thread执行过程中会阻塞请求。
+
+
+
+而NIO模型如下：
+
+![img](https://upload-images.jianshu.io/upload_images/1089449-9eebe781fba495fd.png?imageMogr2/auto-orient/strip|imageView2/2/w/572/format/webp)
+
+selector处理所有请求，断开请求和处理线程的耦合，从而提高并发。
+
+内部分为boss和worker两种线程组，boss负责接收请求分发给worker线程去处理。
+
+
+
+## 和tomcat区别
+
+netty和tomcat最大区别在于通信协议，tomcat是基于http协议的web容器，netty则通过codec来编解码字节流来自定义通信协议。
+
+tomcat从6.x开始就支持了nio模式，并且后续还有APR模式，所以不能从根本上评判netty和tomcat的性能高低，而是看使用者。
+
+## netty为什么快
+
+**零拷贝**：
+
+一般我们的数据如果需要从IO读取到堆内存，中间需要经过Socket缓冲区，也就是说一个数据会被拷贝两次才能到达他的的终点。
+
+netty针对这种情况，使用**零拷贝**，当netty需要接收数据的时候，他会在堆内存之外开辟一块内存，数据就直接从IO读到了那块内存中去，在netty里面通过ByteBuf可以直接对这些数据进行直接操作，从而加快了传输速度。
