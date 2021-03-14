@@ -1,4 +1,4 @@
-### @SuppressWarnings的作用
+### 注解@SuppressWarnings的作用
 
 使编译器忽略如下警告
 

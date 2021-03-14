@@ -1,7 +1,6 @@
 # Boom
 
-a personal wiki
 
-> Glad to see you here
+> Just code, Don't BB
 
 
