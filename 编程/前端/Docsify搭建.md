@@ -1,4 +1,4 @@
-# Docsify
+# Docsify - 快速搭建个人博客
 
 ## 介绍
 
@@ -71,6 +71,8 @@
 
 docsify会寻找`_sidebar.md`文件，来渲染多个页面侧边栏，文件具体使用可参考[官方文档](https://docsify.js.org/#/zh-cn/more-pages)
 
+#### 另：
+
 [这里](https://github.com/kangzhixing/docsify-sidebar-generator)有一个小工具可以通过文件夹目录结构帮你快速生成`_sidebar.md`文件
 
 >  将docsify-sidebar-generator.jar放到你的docsify根目录下
@@ -127,4 +129,25 @@ docsify会寻找`_sidebar.md`文件，来渲染多个页面侧边栏，文件具
    Your site is published at https://xxx.github.io/xxx
    ```
 
-   这样，你就有了一个你的在线博客了
+## 后记
+
+这样，你就有了个人的在线博客了
+
+你可以只关注文档书写，然后刷新`_sidebar.md`并推送到GitHub即可
+
+附送一个window下将你的本地仓库自动同步GitHub的bat脚本
+
+```bash
+@echo off 
+echo 1. 开始拉取
+git pull
+echo 2. 添加文件
+git add *
+echo 3. 提交
+git commit -m 'sync'
+echo 4. 推送
+git push
+```
+
+
+
