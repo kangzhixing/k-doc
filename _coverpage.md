@@ -9,6 +9,6 @@
 * 算法
 * whatever
 
-[Started](#Boom)
+[Started](#Hi)
 
 ![](27.jpg)
