@@ -9,6 +9,6 @@
 * 算法
 * whatever
 
-[Started](README.md)
+[Started](#Boom)
 
 ![](27.jpg)
