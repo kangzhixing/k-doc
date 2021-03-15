@@ -41,7 +41,10 @@ ConcurrentHashMap里包含一个Segment数组（Segment是一种可重入锁Reen
 JDK1.8以后，摒弃Segment，采用“数组”+链表+红黑树的方式，使用unsafe.compareAndSwapXXX和Syncronized保证线程安全。  
 HashEntry中的value以及next都被volatile修饰，这样在多线程读写过程中能够保持它们的可见性。
 
-## LinkedHashMap
+## 
+
+
+
 LinkedHashMap内部维护了Entry[]的同时，还维护了一个双向链表。  
 从遍历的效率来说，遍历双向链表的效率要高于遍历table，因为遍历双向链表是N次（N为元素个数）；而遍历table是N+table的空余个数（N为元素个数）。LinkedHashMap是继承于HashMap，是基于HashMap和双向链表来实现的。  
 HashMap无序；LinkedHashMap有序，可分为插入顺序和访问顺序两种。如果是访问顺序，那put和get操作已存在的Entry时，都会把Entry移动到双向链表的表尾(其实是先删除再插入)。  

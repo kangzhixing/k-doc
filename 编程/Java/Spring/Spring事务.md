@@ -15,18 +15,18 @@
 
 ## 事务的传播机制
 
-- PROPAGATION_REQUIRED
+- **PROPAGATION_REQUIRED**
 Spring默认的传播机制，能满足绝大部分业务需求，如果外层有事务，则当前事务加入到外层事务，一块提交，一块回滚。如果外层没有事务，新建一个事务执行
-- PROPAGATION_REQUES_NEW
+- **PROPAGATION_REQUES_NEW**
 该事务传播机制是每次都会新开启一个事务，同时把外层事务挂起，当当前事务执行完毕，恢复上层事务的执行。如果外层没有事务，执行当前新开启的事务即可
-- PROPAGATION_SUPPORT
+- **PROPAGATION_SUPPORT**
 如果外层有事务，则加入外层事务，如果外层没有事务，则直接使用非事务方式执行。完全依赖外层的事务
-- PROPAGATION_NOT_SUPPORT
+- **PROPAGATION_NOT_SUPPORT**
 该传播机制不支持事务，如果外层存在事务则挂起，执行完当前代码，则恢复外层事务，无论是否异常都不会回滚当前的代码
-- PROPAGATION_NEVER
+- **PROPAGATION_NEVER**
 该传播机制不支持外层事务，即如果外层有事务就抛出异常
-- PROPAGATION_MANDATORY
+- **PROPAGATION_MANDATORY**
 与NEVER相反，如果外层没有事务，则抛出异常
-- PROPAGATION_NESTED
+- **PROPAGATION_NESTED**
 该传播机制的特点是可以保存状态保存点，当前事务回滚到某一个点，从而避免所有的嵌套事务都回滚，即各自回滚各自的，如果子事务没有把异常吃掉，基本还是会引起全部回滚的。
 

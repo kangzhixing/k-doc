@@ -1,3 +1,5 @@
+
+
 ## dump日志方法
 
 - 在jvm启动的参数中，新增-XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/admin/logs/java.hprof jvm参数。这样在发生jvm 内存溢出时，就会直接dump出java.hprof 文件了
