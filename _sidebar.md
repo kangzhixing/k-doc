@@ -9,7 +9,6 @@
     - [Elastic Search](编程/Java/Elastic%20Search.md)
     - [GC优化](编程/Java/GC优化.md)
     - [Gson](编程/Java/Gson.md)
-    - [HashMap](编程/Java/HashMap.md)
     - idea IDE
       - [Spring Boot热部署方式](编程/Java/idea%20IDE/Spring%20Boot热部署方式.md)
     - [Java IO](编程/Java/Java%20IO.md)
@@ -23,9 +22,6 @@
     - [Kafka](编程/Java/Kafka.md)
     - [List.toArray()](编程/Java/List.toArray().md)
     - [mybatis-plus](编程/Java/mybatis-plus.md)
-    - netty
-      - [Netty](编程/Java/netty/Netty.md)
-    - [Netty](编程/Java/Netty.md)
     - [new 关键字](编程/Java/new%20关键字.md)
     - [RabbitMQ](编程/Java/RabbitMQ.md)
     - [Redis持久化方式区别(RDB & AOF)](编程/Java/Redis持久化方式区别(RDB%20&%20AOF).md)
@@ -54,32 +50,25 @@
     - [ThreadLocal](编程/Java/ThreadLocal.md)
     - [volatile](编程/Java/volatile.md)
     - [ZK使用](编程/Java/ZK使用.md)
+    - 多线程
+      - [ArrayBlockingQueue](编程/Java/多线程/ArrayBlockingQueue.md)
+      - [Java线程池](编程/Java/多线程/Java线程池.md)
+      - [Thread类提供的方法](编程/Java/多线程/Thread类提供的方法.md)
+      - [多线程状态](编程/Java/多线程/多线程状态.md)
+      - [死锁Demo](编程/Java/多线程/死锁Demo.md)
     - 数据结构
+      - [HashMap](编程/Java/数据结构/HashMap.md)
       - [List.toArray()](编程/Java/数据结构/List.toArray().md)
+      - [二叉树](编程/Java/数据结构/二叉树.md)
       - [数组和链表](编程/Java/数据结构/数组和链表.md)
     - [数组和链表](编程/Java/数组和链表.md)
     - [注解@SuppressWarning@的作用](编程/Java/注解@SuppressWarning@的作用.md)
-  - Linux
-    - [dmesg作用](编程/Linux/dmesg作用.md)
-    - [grep](编程/Linux/grep.md)
-    - [jstack查看thread dump](编程/Linux/jstack查看thread%20dump.md)
-    - [less](编程/Linux/less.md)
-    - [top](编程/Linux/top.md)
-  - Redis
-    - [bitmap使用](编程/Redis/bitmap使用.md)
-    - [lua脚本实现令牌桶](编程/Redis/lua脚本实现令牌桶.md)
-    - [redis和zk实现分布式锁的区别](编程/Redis/redis和zk实现分布式锁的区别.md)
-    - [redis数据类型](编程/Redis/redis数据类型.md)
-    - [Redis缓存和数据库一致性](编程/Redis/Redis缓存和数据库一致性.md)
-    - [Redis集群](编程/Redis/Redis集群.md)
-    - [主从复制过程](编程/Redis/主从复制过程.md)
-    - [内存清除策略](编程/Redis/内存清除策略.md)
   - 分布式
     - [CAP](编程/分布式/CAP.md)
     - Dubbo
+      - [Dubbo SPI机制](编程/分布式/Dubbo/Dubbo%20SPI机制.md)
       - [RPC理解](编程/分布式/Dubbo/RPC理解.md)
       - [Spring boot中使用Dubbo](编程/分布式/Dubbo/Spring%20boot中使用Dubbo.md)
-    - [Dubbo SPI机制](编程/分布式/Dubbo%20SPI机制.md)
     - kafka
       - [Kafka](编程/分布式/kafka/Kafka.md)
       - [kafka为什么快](编程/分布式/kafka/kafka为什么快.md)
@@ -91,23 +80,24 @@
     - Spring Cloud
       - [Eureka注册中心](编程/分布式/Spring%20Cloud/Eureka注册中心.md)
       - [Feign负载分发](编程/分布式/Spring%20Cloud/Feign负载分发.md)
-    - [zk中leader的选举过程](编程/分布式/zk中leader的选举过程.md)
-    - [zk的ZAB协议](编程/分布式/zk的ZAB协议.md)
+    - zookeeper
+      - [zk中leader的选举过程](编程/分布式/zookeeper/zk中leader的选举过程.md)
+      - [zk的ZAB协议](编程/分布式/zookeeper/zk的ZAB协议.md)
   - 前端
     - [Docsify搭建](编程/前端/Docsify搭建.md)
     - [HTTP协议的8种请求类型](编程/前端/HTTP协议的8种请求类型.md)
     - [Http状态码](编程/前端/Http状态码.md)
     - [JS整型最大精度](编程/前端/JS整型最大精度.md)
-    - [OSI七层协议](编程/前端/OSI七层协议.md)
     - [Transform翻转](编程/前端/Transform翻转.md)
-  - 多线程
-    - [ArrayBlockingQueue](编程/多线程/ArrayBlockingQueue.md)
-    - [Java线程池](编程/多线程/Java线程池.md)
-    - [Thread类提供的方法](编程/多线程/Thread类提供的方法.md)
-    - [多线程状态](编程/多线程/多线程状态.md)
-    - [死锁Demo](编程/多线程/死锁Demo.md)
   - 应用服务器
+    - Linux
+      - [dmesg作用](编程/应用服务器/Linux/dmesg作用.md)
+      - [grep](编程/应用服务器/Linux/grep.md)
+      - [jstack查看thread dump](编程/应用服务器/Linux/jstack查看thread%20dump.md)
+      - [less](编程/应用服务器/Linux/less.md)
+      - [top](编程/应用服务器/Linux/top.md)
     - [Nginx负载均衡](编程/应用服务器/Nginx负载均衡.md)
+    - [OSI七层协议](编程/应用服务器/OSI七层协议.md)
     - [tomcat加载jar包顺序](编程/应用服务器/tomcat加载jar包顺序.md)
   - 数据库
     - [binlog增量恢复数据](编程/数据库/binlog增量恢复数据.md)
@@ -122,10 +112,6 @@
     - [ON DUPLICATE KEY UPDATE](编程/数据库/ON%20DUPLICATE%20KEY%20UPDATE.md)
     - [优化方式](编程/数据库/优化方式.md)
     - [四种事务隔离级别](编程/数据库/四种事务隔离级别.md)
-  - 数据结构
-    - [二叉树](编程/数据结构/二叉树.md)
-  - 服务器
-    - [Nginx负载均衡](编程/服务器/Nginx负载均衡.md)
   - 版本管理
     - [git命令](编程/版本管理/git命令.md)
   - 算法
@@ -143,9 +129,15 @@
       - [Gson](编程/组件/Guava/Gson.md)
       - [LoadingCache](编程/组件/Guava/LoadingCache.md)
     - [org.reflections包](编程/组件/org.reflections包.md)
-    - Spring Cloud
-      - [Eureka注册中心](编程/组件/Spring%20Cloud/Eureka注册中心.md)
-      - [Feign负载分发](编程/组件/Spring%20Cloud/Feign负载分发.md)
+    - Redis
+      - [bitmap使用](编程/组件/Redis/bitmap使用.md)
+      - [lua脚本实现令牌桶](编程/组件/Redis/lua脚本实现令牌桶.md)
+      - [redis和zk实现分布式锁的区别](编程/组件/Redis/redis和zk实现分布式锁的区别.md)
+      - [redis数据类型](编程/组件/Redis/redis数据类型.md)
+      - [Redis缓存和数据库一致性](编程/组件/Redis/Redis缓存和数据库一致性.md)
+      - [Redis集群](编程/组件/Redis/Redis集群.md)
+      - [主从复制过程](编程/组件/Redis/主从复制过程.md)
+      - [内存清除策略](编程/组件/Redis/内存清除策略.md)
     - [swagger](编程/组件/swagger.md)
   - 设计模式
     - [代理模式](编程/设计模式/代理模式.md)
@@ -158,7 +150,3 @@
     - [tomcat日志乱码](编程/遇到的问题/tomcat日志乱码.md)
     - [包存在，build失败](编程/遇到的问题/包存在，build失败.md)
     - [部署版本检测](编程/遇到的问题/部署版本检测.md)
-  - 问题
-    - [tomcat日志乱码](编程/问题/tomcat日志乱码.md)
-    - [包存在，build失败](编程/问题/包存在，build失败.md)
-    - [部署版本检测](编程/问题/部署版本检测.md)
