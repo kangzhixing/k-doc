@@ -1,12 +1,10 @@
 - 编程
   - Java
-    - [@SuppressWarning - 使编译器忽略警告](编程/Java/%5C%40SuppressWarning%20-%20使编译器忽略警告.md)
     - [AssertionError](编程/Java/AssertionError.md)
     - concurrent包
       - [CountDownLatch](编程/Java/concurrent包/CountDownLatch.md)
     - [CountDownLatch](编程/Java/CountDownLatch.md)
     - [Dubbo内置了4种负载均衡](编程/Java/Dubbo内置了4种负载均衡.md)
-    - [Elastic Search](编程/Java/Elastic%20Search.md)
     - [GC优化](编程/Java/GC优化.md)
     - [Gson](编程/Java/Gson.md)
     - idea IDE
@@ -19,6 +17,7 @@
       - [dump内存日志](编程/Java/JVM/dump内存日志.md)
       - [GC优化](编程/Java/JVM/GC优化.md)
       - [jmm内存模型和gc](编程/Java/JVM/jmm内存模型和gc.md)
+      - [内存屏障](编程/Java/JVM/内存屏障.md)
     - [Kafka](编程/Java/Kafka.md)
     - [List.toArray()](编程/Java/List.toArray().md)
     - [mybatis-plus](编程/Java/mybatis-plus.md)
@@ -100,18 +99,23 @@
     - [OSI七层协议](编程/应用服务器/OSI七层协议.md)
     - [tomcat加载jar包顺序](编程/应用服务器/tomcat加载jar包顺序.md)
   - 数据库
-    - [binlog增量恢复数据](编程/数据库/binlog增量恢复数据.md)
-    - [char、varchar、text区别](编程/数据库/char、varchar、text区别.md)
-    - [mybatis是如何做到防止sql注入](编程/数据库/mybatis是如何做到防止sql注入.md)
-    - [Mybatis的两级缓存](编程/数据库/Mybatis的两级缓存.md)
-    - [Mysql主键自增优点](编程/数据库/Mysql主键自增优点.md)
-    - [Mysql执行计划](编程/数据库/Mysql执行计划.md)
-    - [mysql数据库无法批量update](编程/数据库/mysql数据库无法批量update.md)
-    - [mysql数据引擎区别](编程/数据库/mysql数据引擎区别.md)
-    - [Mysql锁](编程/数据库/Mysql锁.md)
-    - [ON DUPLICATE KEY UPDATE](编程/数据库/ON%20DUPLICATE%20KEY%20UPDATE.md)
-    - [优化方式](编程/数据库/优化方式.md)
-    - [四种事务隔离级别](编程/数据库/四种事务隔离级别.md)
+    - ES
+      - [Elastic Search](编程/数据库/ES/Elastic%20Search.md)
+    - Mysql
+      - [binlog增量恢复数据](编程/数据库/Mysql/binlog增量恢复数据.md)
+      - [char、varchar、text区别](编程/数据库/Mysql/char、varchar、text区别.md)
+      - [mybatis是如何做到防止sql注入](编程/数据库/Mysql/mybatis是如何做到防止sql注入.md)
+      - [Mybatis的两级缓存](编程/数据库/Mysql/Mybatis的两级缓存.md)
+      - [Mysql主键自增优点](编程/数据库/Mysql/Mysql主键自增优点.md)
+      - [Mysql执行计划](编程/数据库/Mysql/Mysql执行计划.md)
+      - [mysql数据库无法批量update](编程/数据库/Mysql/mysql数据库无法批量update.md)
+      - [mysql数据引擎区别](编程/数据库/Mysql/mysql数据引擎区别.md)
+      - [Mysql锁](编程/数据库/Mysql/Mysql锁.md)
+      - [ON DUPLICATE KEY UPDATE](编程/数据库/Mysql/ON%20DUPLICATE%20KEY%20UPDATE.md)
+      - [优化方式](编程/数据库/Mysql/优化方式.md)
+      - [四种事务隔离级别](编程/数据库/Mysql/四种事务隔离级别.md)
+  - 架构
+    - [常用原则](编程/架构/常用原则.md)
   - 版本管理
     - [git命令](编程/版本管理/git命令.md)
   - 算法
