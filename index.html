@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
@@ -8,18 +9,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
+
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
       name: 'blog of kang',
       repo: 'https://github.com/kangzhixing/k-doc.git',
-      coverpage: {'/':'_coverpage.md'},
+      coverpage: { '/': '_coverpage.md' },
       subMaxLevel: 3,
-      loadSidebar: true,      
-      copyCode: { 
-        buttonText : 'Copy to clipboard',
-        errorText  : 'Error',
+      loadSidebar: true,
+      copyCode: {
+        buttonText: 'Copy to clipboard',
+        errorText: 'Error',
         successText: 'Copied'
       },
       search: 'auto'
@@ -27,10 +29,17 @@
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- 代码块copy功能 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <!-- 基于ls的全局搜索 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- 语法高亮 -->
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
+  <!-- 分页 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
+
 </html>
