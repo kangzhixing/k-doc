@@ -15,3 +15,7 @@
 ### ConsistentHashLoadBalance:一致性哈希负载均衡。
 
 相同参数的请求总是落在同一台机器上。
+
+## Dubbo SPI机制
+转：https://www.jianshu.com/p/7daa38fc9711
+

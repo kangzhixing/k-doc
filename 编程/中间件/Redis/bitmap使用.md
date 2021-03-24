@@ -9,3 +9,5 @@ getbit key offset
 
 在redis中，借助Bitmap可实现布隆过滤器。
 
+_注意: offset最大值为int范围，所以offset最大为2^31-1，那么该value将占用512M内存_
+

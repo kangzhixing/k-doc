@@ -3,10 +3,11 @@
     - [AssertionError](编程/Java/AssertionError.md)
     - concurrent包
       - [CountDownLatch](编程/Java/concurrent包/CountDownLatch.md)
-    - [CountDownLatch](编程/Java/CountDownLatch.md)
-    - [Dubbo内置了4种负载均衡](编程/Java/Dubbo内置了4种负载均衡.md)
     - [GC优化](编程/Java/GC优化.md)
     - [Gson](编程/Java/Gson.md)
+    - Guava
+      - [Gson](编程/Java/Guava/Gson.md)
+      - [LoadingCache](编程/Java/Guava/LoadingCache.md)
     - idea IDE
       - [Spring Boot热部署方式](编程/Java/idea%20IDE/Spring%20Boot热部署方式.md)
     - [Java IO](编程/Java/Java%20IO.md)
@@ -18,11 +19,10 @@
       - [GC优化](编程/Java/JVM/GC优化.md)
       - [jmm内存模型和gc](编程/Java/JVM/jmm内存模型和gc.md)
       - [内存屏障](编程/Java/JVM/内存屏障.md)
-    - [Kafka](编程/Java/Kafka.md)
     - [List.toArray()](编程/Java/List.toArray().md)
     - [mybatis-plus](编程/Java/mybatis-plus.md)
     - [new 关键字](编程/Java/new%20关键字.md)
-    - [RabbitMQ](编程/Java/RabbitMQ.md)
+    - [org.reflections包](编程/Java/org.reflections包.md)
     - [Redis持久化方式区别(RDB & AOF)](编程/Java/Redis持久化方式区别(RDB%20&%20AOF).md)
     - [ReentrantLock 重入锁](编程/Java/ReentrantLock%20重入锁.md)
     - [sharding-jdbc使用](编程/Java/sharding-jdbc使用.md)
@@ -45,6 +45,7 @@
       - [注解@Autowired与@Resource的区别](编程/Java/Spring/注解@Autowired与@Resource的区别.md)
       - [注解简介](编程/Java/Spring/注解简介.md)
     - [Spring Boot热部署方式](编程/Java/Spring%20Boot热部署方式.md)
+    - [swagger](编程/Java/swagger.md)
     - [synchronized](编程/Java/synchronized.md)
     - [ThreadLocal](编程/Java/ThreadLocal.md)
     - [volatile](编程/Java/volatile.md)
@@ -62,26 +63,32 @@
       - [数组和链表](编程/Java/数据结构/数组和链表.md)
     - [数组和链表](编程/Java/数组和链表.md)
     - [注解@SuppressWarning@的作用](编程/Java/注解@SuppressWarning@的作用.md)
-  - 分布式
-    - [CAP](编程/分布式/CAP.md)
+  - 中间件
+    - [CAP](编程/中间件/CAP.md)
     - Dubbo
-      - [Dubbo SPI机制](编程/分布式/Dubbo/Dubbo%20SPI机制.md)
-      - [RPC理解](编程/分布式/Dubbo/RPC理解.md)
-      - [Spring boot中使用Dubbo](编程/分布式/Dubbo/Spring%20boot中使用Dubbo.md)
+      - [Dubbo说明](编程/中间件/Dubbo/Dubbo说明.md)
+      - [Spring boot中使用Dubbo](编程/中间件/Dubbo/Spring%20boot中使用Dubbo.md)
     - kafka
-      - [Kafka](编程/分布式/kafka/Kafka.md)
-      - [kafka为什么快](编程/分布式/kafka/kafka为什么快.md)
+      - [Kafka](编程/中间件/kafka/Kafka.md)
+      - [kafka为什么快](编程/中间件/kafka/kafka为什么快.md)
     - rabbitMQ
-      - [AMQP协议](编程/分布式/rabbitMQ/AMQP协议.md)
-      - [RabbitMQ事务](编程/分布式/rabbitMQ/RabbitMQ事务.md)
-      - [三种交换机类型](编程/分布式/rabbitMQ/三种交换机类型.md)
-      - [死信队列](编程/分布式/rabbitMQ/死信队列.md)
+      - [AMQP协议](编程/中间件/rabbitMQ/AMQP协议.md)
+      - [RabbitMQ](编程/中间件/rabbitMQ/RabbitMQ.md)
+    - Redis
+      - [bitmap使用](编程/中间件/Redis/bitmap使用.md)
+      - [lua脚本实现令牌桶](编程/中间件/Redis/lua脚本实现令牌桶.md)
+      - [redis和zk实现分布式锁的区别](编程/中间件/Redis/redis和zk实现分布式锁的区别.md)
+      - [redis数据类型](编程/中间件/Redis/redis数据类型.md)
+      - [Redis缓存和数据库一致性](编程/中间件/Redis/Redis缓存和数据库一致性.md)
+      - [Redis集群](编程/中间件/Redis/Redis集群.md)
+      - [主从复制过程](编程/中间件/Redis/主从复制过程.md)
+      - [内存清除策略](编程/中间件/Redis/内存清除策略.md)
     - Spring Cloud
-      - [Eureka注册中心](编程/分布式/Spring%20Cloud/Eureka注册中心.md)
-      - [Feign负载分发](编程/分布式/Spring%20Cloud/Feign负载分发.md)
+      - [Eureka注册中心](编程/中间件/Spring%20Cloud/Eureka注册中心.md)
+      - [Feign负载分发](编程/中间件/Spring%20Cloud/Feign负载分发.md)
     - zookeeper
-      - [zk中leader的选举过程](编程/分布式/zookeeper/zk中leader的选举过程.md)
-      - [zk的ZAB协议](编程/分布式/zookeeper/zk的ZAB协议.md)
+      - [zk中leader的选举过程](编程/中间件/zookeeper/zk中leader的选举过程.md)
+      - [zk的ZAB协议](编程/中间件/zookeeper/zk的ZAB协议.md)
   - 前端
     - [Docsify搭建](编程/前端/Docsify搭建.md)
     - [HTTP协议的8种请求类型](编程/前端/HTTP协议的8种请求类型.md)
@@ -128,21 +135,6 @@
     - [快速排序](编程/算法/快速排序.md)
     - [接口限流算法](编程/算法/接口限流算法.md)
     - [红黑树](编程/算法/红黑树.md)
-  - 组件
-    - Guava
-      - [Gson](编程/组件/Guava/Gson.md)
-      - [LoadingCache](编程/组件/Guava/LoadingCache.md)
-    - [org.reflections包](编程/组件/org.reflections包.md)
-    - Redis
-      - [bitmap使用](编程/组件/Redis/bitmap使用.md)
-      - [lua脚本实现令牌桶](编程/组件/Redis/lua脚本实现令牌桶.md)
-      - [redis和zk实现分布式锁的区别](编程/组件/Redis/redis和zk实现分布式锁的区别.md)
-      - [redis数据类型](编程/组件/Redis/redis数据类型.md)
-      - [Redis缓存和数据库一致性](编程/组件/Redis/Redis缓存和数据库一致性.md)
-      - [Redis集群](编程/组件/Redis/Redis集群.md)
-      - [主从复制过程](编程/组件/Redis/主从复制过程.md)
-      - [内存清除策略](编程/组件/Redis/内存清除策略.md)
-    - [swagger](编程/组件/swagger.md)
   - 设计模式
     - [代理模式](编程/设计模式/代理模式.md)
     - [单例模式](编程/设计模式/单例模式.md)
